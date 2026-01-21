@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1901306265031709781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 277622187160859151, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7374950826055246867, guid: 0c4bea24feaa449b99e32f04f934b09f, type: 3}
+    - target: {fileID: 322758420567507104, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8702803059459792742, guid: 540a87d7113024a3ea34b93f2fcc4ede, type: 3}
+    - target: {fileID: 322758420567507104, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 322758420567507104, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 322758420567507104, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 351563008743513618, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_TagString
+      value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.036942072
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 709547053385171469, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109427886263650897, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_TagString
+      value: Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741211864118883491, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5420109290555857909, guid: eafbdf0ce1bba4d2690b762997246c15, type: 3}
+    - target: {fileID: 6719991787596801863, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_Name
+      value: Trougao 2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8294075517822554711, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
+      propertyPath: m_TagString
+      value: Orange
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 964cab883c9254cc281e9aabd438edd9, type: 3}
