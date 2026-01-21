@@ -5,3 +5,13 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Visual Studio / Rider
+*.csproj
+*.sln
+*.slnx
