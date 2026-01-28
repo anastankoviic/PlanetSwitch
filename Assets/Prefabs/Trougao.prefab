@@ -190,6 +190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9b705495879944049ec38b0fca758f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 7587418619771287156, guid: d51d306055588496da5122c1a26c8e44, type: 3}
+  scoreScript: {fileID: 3265301047655396623, guid: 2dd9523b9be7d431dad27704d859100e, type: 3}
 --- !u!1 &1782416709765458955
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,6 +394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9b705495879944049ec38b0fca758f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 7587418619771287156, guid: d51d306055588496da5122c1a26c8e44, type: 3}
+  scoreScript: {fileID: 3265301047655396623, guid: 2dd9523b9be7d431dad27704d859100e, type: 3}
 --- !u!1 &6719991787596801863
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,6 +571,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9b705495879944049ec38b0fca758f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 7587418619771287156, guid: d51d306055588496da5122c1a26c8e44, type: 3}
+  scoreScript: {fileID: 3265301047655396623, guid: 2dd9523b9be7d431dad27704d859100e, type: 3}
 --- !u!60 &6506007915650454547
 PolygonCollider2D:
   m_ObjectHideFlags: 0

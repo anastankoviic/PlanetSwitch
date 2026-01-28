@@ -15,6 +15,7 @@ TagManager:
   - Grey
   - Sun
   - Star
+  - AudioManager
   layers:
   - Default
   - TransparentFX

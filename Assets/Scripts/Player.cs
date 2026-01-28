@@ -11,11 +11,25 @@ public Rigidbody2D rb; //fizika
 
 public string currentColor;
 
-
+AudioManager audioManager;
 
 public SpriteRenderer sr;
 public Sprite[] planetSprites;
 private int currentPlanetIndex=0;
+
+
+private void Awake()
+    {
+      var amObj = GameObject.FindGameObjectWithTag("AudioManager");
+        if (amObj != null)
+        {
+            audioManager = amObj.GetComponent<AudioManager>();
+        }
+        else
+        {
+            Debug.LogError("ColorPart: Nema objekta sa tagom 'AudioManager' u sceni!");
+        }
+ }
     void Start()
     {
         sr.sprite=planetSprites[currentPlanetIndex];
@@ -31,6 +45,16 @@ private int currentPlanetIndex=0;
         if (Input.GetKeyDown(KeyCode.Space)==true) //pita unity da li je pritisnut space
         {
              rb.linearVelocity=Vector2.up * jumpForce; 
+
+              if (audioManager.tap != null)
+                {
+                    audioManager.PlaySFX(audioManager.tap);
+                }
+
+                else
+                {
+                   Debug.LogError("ColorPart: 'tap' AudioClip nije dodeljen u AudioManager Inspectoru!"); 
+                }
         }
 
         SetColor(); //postavlja neptun na plavu boju
