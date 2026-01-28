@@ -9,3 +9,6 @@ drugi commit:
 -victory meni
 -zvucni efekti
 -uvodni meni(logo)
+treci commit:
+-ispravljeni alternativni meniji
+-dodat esc
